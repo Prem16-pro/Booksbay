@@ -128,7 +128,7 @@ def delete(book_id):
 def payment():
         # In a real application, you would process the payment here
         # For now, we'll just display a confirmation
-    return render_template('payment.html')
+    return render_template('payemnt_confirmation.html')
 
 @app.route('/checkout')
 def checkout():
